@@ -1,0 +1,46 @@
+/*
+blue: #2c9ab7
+light gray: #ebebeb
+dark gray: #3a3a3a
+*/
+
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+
+body {
+  font-family: sans-serif;
+  color:#3a3a3a;
+}
+
+header {
+  display: block;
+  background-color: #2c9ab7;
+  color: #fff;
+  padding: 50px 0 40px;
+}
+
+header section {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+nav {
+  background-color: #ebebeb;
+  display: block;
+}
+nav ul {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul li {
+  display: inline-block;
+}
