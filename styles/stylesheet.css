@@ -178,7 +178,7 @@ aside section.relative {
 header {
   display: block;
   background-color: #2c9ab7;
-  /*background: #2c9ab7 url("../images/banner-image.jpg") no-repeat center;*/
+  background: #2c9ab7 url("../images/banner-image.jpg") no-repeat center;
   color: #fff;
   padding: 50px 0 40px;
 }
@@ -300,6 +300,10 @@ main aside {
   border-top:2px dotted #2c9ab7;
 }
 
+.cat-details:last-child {
+  border-bottom:2px dotted #2c9ab7;
+}
+
 .cat-details::after {
   content: "";
   clear: both;
@@ -318,6 +322,10 @@ main aside {
   padding:2px 5px;
   color: #fff;
   margin:0;
+}
+
+.cat-details button {
+  float: right;
 }
 
 /*- figure -*/
