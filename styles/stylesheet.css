@@ -133,7 +133,8 @@ h3 {
   margin-bottom:15px;
 }
 
-p.intro {
+p.intro,
+h2.intro {
   color: #2c9ab7;
   font-size: 1.2rem;
   font-weight: bold;
